@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    gap: 450px;
+
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+   background-image: url(imagens/img.main/gif.gif);
+    background-color: rgb(95, 7, 95);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+.main-texto {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.texto {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.texto {
+    color: white;
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.texto {
+    margin-top: 30px;
+}
+
+.texto .texto {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.texto .botoes {
+    color: white;
+    background: none;
+
+}
+
+.texto .botoes:hover {
+    color: black;
+    background-color: white;
+}
+
+.texto .botoes {
+    background: white;
+    color: black;
+
+}
+
+.roxin {
+
+    width: 200px;
+
+}
+
+.roxin:hover {
+    width: 201px;
+
+}
+
+.titulo-1 {
+    font-size: 50px;
+    color: rgb(116, 15, 112);
+    text-align: center;
+    margin: 100px;
+
+
+}
+
+
+
+.letra {
+
+    color: rgb(116, 15, 112);
+}
+
+.textosobre {
+
+    text-align: center;
+    color: rgb(116, 15, 112);
+}
+
+.git {
+
+    text-align: center;
+    color: rgb(116, 15, 112);
+}
+
+.number {
+
+    text-align: center;
+    color: rgb(116, 15, 112);
+}
+
+.email {
+
+    text-align: center;
+    color: rgb(116, 15, 112);
+}
